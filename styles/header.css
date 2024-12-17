@@ -1,0 +1,45 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+}
+
+.header__titulo{
+    font-family: var(--fonte-header);
+    font-size: 3.5em;
+    width: 40%;
+    margin-left: 1em;
+    font-weight: 700;
+}
+
+.header__titulo a{
+    text-decoration: none;
+    color: var(--cor-do-texto);
+}
+
+.header__titulo a:hover{
+    color: var(--cor-deatalhes-laranja);
+}
+
+.header__lista{
+    display: flex;
+    justify-content: center;
+}
+
+.header__lista li{
+    padding: 1.5em;
+    list-style-type: none;
+}
+
+.header__lista li a{
+    font-family: var(--fonte-header);
+    text-decoration: none;
+    color: var(--cor-do-texto);
+    font-size: 2.5em;
+}
+
+.header__lista li a:hover{
+    color: var(--cor-deatalhes-laranja);
+    font-weight: bold;
+}
