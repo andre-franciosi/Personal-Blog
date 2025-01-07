@@ -1,0 +1,23 @@
+.header-admin{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    width: 90%;
+}
+
+.header-main-text{
+    font-size: 2.4em;
+    width: 30vw;
+}
+
+.header-container-admin{
+    display: flex;
+    list-style-type: none;
+}
+
+.header-element{
+    text-decoration: none;
+    color: var(--cor-do-texto);
+    font-size: 1.7em;
+    font-weight: 700;
+}

@@ -4,6 +4,7 @@
 @import "login.css";
 @import "main.css";
 @import "footer.css";
+@import "admin.css";
 
 :root{
     --cor-de-fundo: #edb4a1;
