@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/styles.css">
     <script src="https://kit.fontawesome.com/ba8ab100eb.js" crossorigin="anonymous"></script>
+    <script src="/scripts/login.js" defer></script>
     <title>BLOG</title>
 </head>
 <body>
@@ -26,18 +27,23 @@
                 </li>
             </ul>
             <div class="header-icon">
-                <a href="login.html"><h2>Login</h2></a>
                 <a href="login.html"><i class="fa-solid fa-user"></i></a>
             </div>
         </div>
     </header>
-    
-    <main>
-        
+
+    <main class="main-login">
+        <form class="login-form">
+            <h2>Usuário</h2>
+            <input type="text">
+            <h2>Senha</h2>
+            <input type="password">
+            <button id="buttonLogin">Login</button>
+        </form>
     </main>
 
+    <hr>
     <footer>
-
+        <h2>Desenvolvido por André Franciosi</h2>
     </footer>
 </body>
-</html>

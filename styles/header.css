@@ -43,3 +43,22 @@
     color: var(--cor-deatalhes-laranja);
     font-weight: bold;
 }
+
+.header-icon{
+    margin-left: 23vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.header-icon i{
+    font-size: 2em;
+    color: var(--cor-do-texto);
+}
+
+.header-icon i:hover{
+    cursor: pointer;
+    color: var(--cor-deatalhes-laranja);
+}
